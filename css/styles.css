@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #E4F9F5;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  left: 500px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  right: 500px;
+}
+
+hr {
+  width: 10%;
+  border: 10px dotted;
+  border-style: none none dotted;
+  color: grey;
+  margin: 50px auto;
+}
+
+h1 {
+  margin: 0 auto;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+
+span {
+  text-decoration: underline;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+ color: #11999E;
+ font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+}
+
+
+
+.skill-row1 {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+
+.skill-row1 .skill-image{
+  width: 15%;
+  margin: 10px;
+  float: left;
+}
+
+.skill-row2 {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+
+.skill-row2 .skill-image{
+  width: 15%;
+  margin: 10px;
+  float: right;
+}
+
+
+.skill-row1 p, .skill-row2 p {
+  line-height: 2;
+  padding: 30px;
+}
+
+.btn {
+border: 2px solid #11999E;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius: 10px;
+margin: 1rem auto;
+font-family: 'Montserrat', sans-serif;
+transition-duration: 0.4s;
+
+margin: 30px auto;
+}
+
+.btn:hover {
+  border: 2px solid white;
+  background-color: #11999E;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bottom-container {
+  position: relative;
+  height: 5rem;
+  margin: 0;
+  background-color: #66BFBF;
+  padding-top: 60px;
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.copyright {
+  /* justify-content: center; */
+  color: #EAF6F6;
+  text-align: center;
+}
